@@ -151,9 +151,6 @@ def action():
 		print '[!] Fill In Correctly'
 		action()
 		xxx = str(len(id))
-	
-	jalan ('[✅] Total Numbers: '+xxx)
-	jalan ("[✅] Trying Passwords Wait...")
 	print '\033[1;92m            '
 	def main(arg):
 		global cpb,oks

@@ -79,77 +79,23 @@ vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
 os.system("clear")
-print  """
-
-\033[1;93m              ______      _     _     _ 
-\033[1;93m             |___  /     | |   (_)   | |
-\033[1;93m                / /  __ _| |__  _  __| |
-\033[1;93m               / /  / _` | '_ \| |/ _` |
-\033[1;93m             ./ /__| (_| | | | | | (_| |
-\033[1;93m             \_____/\__,_|_| |_|_|\__,_|
-  
-\033[1;91m  ╔════════════════════════════════════════════╗
-\033[1;91m  ‖                                            ‖
-\033[1;93m  ‖Github:  https://github.com/ZahidMahmood786 ‖
-\033[1;91m  ‖                                            ‖
-\033[1;93m  ‖Youtube: https://m.youtube.com/ZeeKTricks   ‖
-\033[1;91m  ‖                                            ‖
-\033[1;91m  ╚════════════════════════════════════════════╝
-                                                                     
-"""
+print  """			Cloning"""
 
 ####Logo####
 
-logo1 = """
+logo1 = """			Cloning"""
 
-\033[1;93m      _____      _        _______          _  
-\033[1;93m     |  __ \    | |      |__   __|        | | 
-\033[1;93m     | |__) |_ _| | ________| | ___   ___ | | 
-\033[1;93m     |  ___/ _` | |/ /______| |/ _ \ / _ \| | 
-\033[1;93m     | |  | (_| |   <       | | (_) | (_) | | 
-\033[1;93m     |_|   \__,_|_|\_\      |_|\___/ \___/|_| 
-                                          
- """
-
-logo2 = """
-\033[1;93m        ______     _    _     _              
-\033[1;93m        | ___ \   | |  (_)   | |             
-\033[1;93m        | |_/ /_ _| | ___ ___| |_ __ _ _ __  
-\033[1;93m        |  __/ _` | |/ / / __| __/ _` | '_ \ 
-\033[1;93m        | | | (_| |   <| \__ \ || (_| | | | |
-\033[1;93m        \_|  \__,_|_|\_\_|___/\__\__,_|_| |_|
-                                     
-"""
+logo2 = """		    Pakistan"""
 
 
-CorrectPasscode = "7343"
-jalan(" 🔒🔒🔒 4 Digit PassCode Required To Enter 🔒🔒🔒")
 
-loop = 'true'
-while (loop == 'true'):
-    passcode = raw_input("\033[1;97m[🔒] \x1b[1;97mEnter PassCode\x1b[1;97m: ")
-    if (passcode == CorrectPasscode):
-            print """
-            \033[1;92m🔓🔓🔓Correct Entry✅✅✅
-                  """
-            jalan("...............Welcome To Pak Tool✅✅✅..........")
-            loop = 'false'
-    else:
-            print "\033[1;91m🔒🔒🔒Wrong Entry!"
-            os.system('xdg-open https://www.youtube.com/cannel/UCNx68447zLAljb_UoAqbUNA')
-##### LICENSE #####
-#=================#
-def lisensi():
-	os.system('clear')
-	login()
-####login#########
 def login():
 	os.system('clear')
 	print logo1
-        print "\033[1;95m[1]\x1b[1;93mClone All Pakistani Numbers Facebook Accounts."
-        time.sleep(0.05)
+        print "\033[1;95m[1]\x1b[1;93mPakistan Cloning"
+        time.sleep(0.00)
         print '\x1b[1;91m[0]\033[1;91mExit.'
-        time.sleep(0.05)
+        time.sleep(0.00)
         pilih_login()
 
 def pilih_login():

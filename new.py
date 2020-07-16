@@ -150,6 +150,7 @@ def action():
 	else:
 		print '[!] Fill In Correctly'
 		action()
+		print logo
 	
 	jalan ('[✅] Total Numbers: '+xxx)
 	jalan ("[✅] Trying Passwords Wait...")

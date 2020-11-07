@@ -114,9 +114,9 @@ def loginfb():
     data = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email="+uid+"&locale=en_US&password="+pwd+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
     q = json.loads(data)
     if "access_token" in q:
-        succ = open(".login.txt","w")
-        succ.write(q["access_token"])
-        succ.close()
+        hopa = open(".login.txt","w")
+        hopa.write(hopa)
+        hopa.close()
         print("\n\033[1;32mLogin Successfull\033[0;97m")
         time.sleep(1)
         os.system("xdg-open https://wa.me/+923097992202")
